@@ -1,20 +1,19 @@
-<!DOCTYPE html>
 <html>
 <body>
-  <style>="stylesheet.css"
-  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet.css' type='text/css'>
-  <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet.css' type='text/css'>
-  <h1>Pure CSS Interactive Map</h1>
-  <p class="description">This doesn&rsquo;t look great at small sizes &mdash; in the original, I have an alternate rule for displaying on mobile devices. <strong>Click the points to expand them.</strong></p>
+  <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Roboto:100,300,400,700,900' rel='stylesheet' type='text/css'>
+  <h1>Turkey - Overview</h1>
+  <h5>As of 20.05.2019</h5>
+  <p class="description">Number of people reached through activities under <b>HIP</b> and <b> Madad </b> projects (since the beginning of the projects). Additionally, the map presents information on the number of Syrian refugees under temporary protection.</p>
   <div class="distribution-map">
       <!-- This was broken for a while because image hosts are annoying, so now it's a data uri. Sorry :( -->
       <img src="https://www.wpmap.org/wp-content/uploads/2015/11/800px-Turkey_provinces_blanksvg.png" alt="" />
       <!--In the original application, these points are injected with Javascript, but ideally, they'd be injected with a haml loop. Because I'm hardcoding content, I'm presenting this as prerendered HTML-->
-      <button class="map-point" style="top:15%;left:35%">
+      <button name="Istanbul" class="map-point" style="top:22%;left:20%">
           <div class="content">
               <div class="centered-y">
-                  <h2>A Place</h2>
-                  <p>You can put plenty of details in here. In the original, I listed contact information and linked phone numbers and email addresses.</p>
+                  <h2>ISTANBUL</h2>
+                  <p>data</p>
               </div>
           </div>
       </button>
@@ -59,6 +58,6 @@
           </div>
       </button>
   </div>
-  <p class="description">It&rsquo;s been brought to my attention that OSX/Safari doesn&rsquo;t support :active for buttons with default settings, so you guys will have to resort to JS or hold down your mouse button to keep :focus triggered.</p>
+  <p class="description">Date of the last update of the project-related figures: xx.xx.xxxx. Date of the last update of the number of refugees: xx.xx.xxxx (source: DGMM).</p>
 </body>
 </html>
